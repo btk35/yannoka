@@ -11,3 +11,4 @@ index.htmlをブラウザで開くだけでローカルで表示できます。
 
 ## デモ
 Github Pagesで公開予定
+https://btk35.github.io/yannoka/
