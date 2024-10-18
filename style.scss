@@ -34,7 +34,7 @@ a{
   text-decoration: none;
   transition: .3s ease;
     &:hover{
-    color:
+    color:#E63946;
     font-weight: bold;
     cursor: pointer;
   }
@@ -87,8 +87,12 @@ small{
 }
 h1{
   font-size: 3rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: top;
 }
-
+  
 header .title{
     display: flex;
     align-items: center;
@@ -367,6 +371,9 @@ footer{
 /*------------------------*/
 
 @media (max-width: 1107px) {
+  h1{
+    flex-direction: column;
+  }
   .openbtn {
     position: fixed;
     z-index: 9999;
@@ -412,7 +419,7 @@ footer{
     z-index: 999;
     top: 0;
     right: -120%;
-    width: 100%;
+    width: 70%;
     height: 100%;
     background-color: #a8dadc;
     transition: all 0.8s ease;
@@ -421,7 +428,7 @@ footer{
   }
 
   #js-nav a {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   #js-nav.panelactive {
@@ -440,7 +447,7 @@ footer{
   #js-nav ul {
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 25%;
     transform: translate(-50%, -50%);
   }
 
