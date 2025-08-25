@@ -1,89 +1,89 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <meta charset="UTF-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex">
-  <title>広告クリエイティブお題道場「Yannoka!」｜Webデザイン初心者向けツール</title>
-  <link href="https://use.fontawesome.com/releases/v6.5.2/css/all.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">  
-</head>
-<body id="index">
-<div class="container">
-  <header class="header">
-    <div class="openbtn">
-      <div class="openbtn openbtn-area">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-    <div class="title">
-      <a href="index.html">
-        <h1>Yannoka!<span>　広告クリエイティブお題道場</span></h1>
-      </a>
-    </div>
-      <nav id="js-nav">
-        <div id="js-nav-list">
-          <ul class="nav-item">
-            <li class="nav-items"><a href="index.html">ホーム</a></li>
-            <li class="nav-items"><a href="about.html#whats">これはなに？</a></li>
-            <li class="nav-items"><a href="about.html#category">項目について</a></li>
-            <li class="nav-items"><a href="about.html#size">サイズ一覧</a></li>
-          </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>広告クリエイティブお題道場「Yannoka!」｜Webデザイン初心者向けツール</title>
+    <link href="https://use.fontawesome.com/releases/v6.5.2/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">  
+  </head>
+  <body id="index">
+    <div class="container">
+      <header class="header">
+        <div class="openbtn">
+          <div class="openbtn openbtn-area">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-      </nav>
-  </header>
-  <div class="introduction">
-      <p>バナーやＷｅｂ広告作成練習お題をランダムに表示するツールです。<br>素材集めの時間は除き、30分を目標に練習しましょう。</p>
-  </div>    
-  <div class="question">
-    <div class="button">
-      <div class="circle-l"></div><br>
-      <span>Click!</span>
+        <div class="title">
+          <a href="index.html">
+            <h1>Yannoka!<span>　広告クリエイティブお題道場</span></h1>
+          </a>
+        </div>
+          <nav id="js-nav">
+            <div id="js-nav-list">
+              <ul class="nav-item">
+                <li class="nav-items"><a href="index.html">ホーム</a></li>
+                <li class="nav-items"><a href="about.html#whats">これはなに？</a></li>
+                <li class="nav-items"><a href="about.html#category">項目について</a></li>
+                <li class="nav-items"><a href="about.html#size">サイズ一覧</a></li>
+              </ul>
+            </div>
+          </nav>
+      </header>
+      <div class="introduction">
+          <p>バナーやＷｅｂ広告作成練習お題をランダムに表示するツールです。<br>素材集めの時間は除き、30分を目標に練習しましょう。</p>
+      </div>    
+      <div class="question">
+        <div class="button">
+          <div class="circle-l"></div><br>
+          <span>Click!</span>
+        </div>
+        <div class="cat">
+          <p class="meow">やんのか？</p>
+          <img src="img/cat.png" alt="やる気に満ち溢れた白猫1" class="fightingCatsL">
+        </div>
+      </div>
+      <div class="main">
+        <div id="theme" class="theme">
+          <dl>
+            <dt>カテゴリ</dt>
+            <dd></dd>
+            <dt>仕様</dt>
+            <dd></dd>
+            <dt>年代</dt>
+            <dd></dd>
+            <dt>性別</dt>
+            <dd></dd>
+            <dt>テイスト</dt>
+            <dd></dd>
+            <dt>Corporate<br>Color</dt>
+            <dd class="colors"></dd>
+          </dl>
+        </div>
+        <button class="js_copy copyButton"><i class="fa-solid fa-clipboard"></i> お題をコピーする</button>
+      </div>
+      <div class="reset">
+        <div class="button">
+          <div class="circle-r"></div>
+          <br><span>reset</span>
+        </div>
+        <div class="cat">
+          <p class="meow">やるにゃ！</p>
+          <img src="img/cat.png" alt="やる気に満ち溢れた白猫2" class="fightingCatsR">
+        </div>
+      </div>
+      <footer class="footer">
+        <small>&copy; 2024 btk35 All rights reserved.</small>
+      </footer>
+      <script type="module" src="app.js"></script>
     </div>
-    <div class="cat">
-       <p class="meow">やんのか？</p>
-      <img src="img/cat.png" alt="やる気に満ち溢れた白猫1" class="fightingCatsL">
-    </div>
-  </div>
-  <div class="main">
-    <div id="theme" class="theme">
-      <dl>
-        <dt>カテゴリ</dt>
-        <dd></dd>
-        <dt>仕様</dt>
-        <dd></dd>
-        <dt>年代</dt>
-        <dd></dd>
-        <dt>性別</dt>
-        <dd></dd>
-        <dt>テイスト</dt>
-        <dd></dd>
-        <dt>Corporate<br>Color</dt>
-        <dd class="colors"></dd>
-      </dl>
-    </div>
-    <button class="js_copy copyButton"><i class="fa-solid fa-clipboard"></i> お題をコピーする</button>
-  </div>
-  <div class="reset">
-    <div class="button">
-      <div class="circle-r"></div>
-      <br><span>reset</span>
-    </div>
-    <div class="cat">
-      <p class="meow">やるにゃ！</p>
-      <img src="img/cat.png" alt="やる気に満ち溢れた白猫2" class="fightingCatsR">
-    </div>
-  </div>
-  <footer class="footer">
-    <small>&copy; 2024 btk35 All rights reserved.</small>
-  </footer>
-  <script src="app.js"></script>
-</div>
-</body>
+  </body>
 </html>
